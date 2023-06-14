@@ -1,0 +1,366 @@
+body{
+margin: 0;
+background-color: rgb(237, 233, 233);
+}.headder{
+    height: 50px;
+
+}
+.lo img{
+    width: 55px;
+    margin-left: 250px;
+    float: left;
+}
+.call  img{
+    width: 25px;
+    float:  left ;
+    margin-left: 180px;
+    margin-top: 14px;
+}
+.ls{
+    float: left;
+}
+
+.call p{
+    
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+.r img{
+    width: 20px;
+    opacity: .6;
+    margin-top: 15px;
+    color: black;
+}
+.s {
+    float: left;
+    
+}
+.s input{
+    margin-left: 110px;
+    width: 200px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: blue;
+}
+.r {
+    float: right;
+    margin-right: 260px;
+
+}
+.web{
+   padding: 4px 0px;
+   height: 40px;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+  
+    
+    background-color: rgb(3, 220, 220);
+}
+.nav ul{
+    margin-left: 215px;
+    margin-top: 4px;
+}
+.nav li{
+    display: inline;
+    
+    
+    
+    
+}
+.nav a{
+text-decoration: none;
+margin: 0px 4px;
+color: black;
+}
+.nav{
+    float: left;
+}
+.but{
+    float: right;
+    margin-right:260px ;
+}
+.but button{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 5px 6px;
+}
+.bo img{
+    
+    width: 1232.5px;
+    position: relative;
+    
+    
+}
+.bo{
+    position: relative;
+}
+
+
+.bo h3{
+    position: absolute;
+    margin-left: 80px;
+    top: 65px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 300px;
+    color:yellow;
+    font-weight:bold;
+    
+    
+    
+}
+.bo p{
+    position: absolute;
+    top: 150px;
+    width: 370px;
+    margin-left: 50px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+@keyframes ani{
+    0%{
+        border-color:red;
+    }
+    25%{
+        border-color:green;
+    }
+    50%{
+        border-color:black;
+    }
+    75%{
+        border-color:yellow;
+    }
+    100%{
+        border-color:pink;
+    }
+    
+}
+
+.bt button{
+    position: absolute;
+    top: 250px;
+    margin-left: 205px;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+    background-color:orangered;
+    animation-name:ani ;
+    animation-duration:5s ;
+    animation-iteration-count: infinite;
+
+}
+.sr h4{
+    position: absolute;
+    top: 580px;
+    margin-left: 290px;
+    width: 160px;
+    height: 24px;
+    background-color:rgb(136, 14, 136);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.div{
+    width: 705px;
+    height: 60px;
+    border:5px solid violet;
+    position: absolute;
+    top: 624.5px;
+    margin-left: 255px;
+    background-color: white;
+    
+    
+    
+    
+}
+
+
+
+.n,.p,.u,.i{
+    float: left;
+
+}
+
+
+.u input{
+    width: 100px;
+    height: 14px;
+    /* position:absolute; */
+}
+
+
+.i  {
+    margin: 10px 20px;
+}
+.n ,.p ,.u{
+    margin: -10px 20px 20px 0px;
+}
+.p input{
+    height: 14px;
+}
+.u input{
+    width: 79px;
+}
+.bn {
+    margin: 8px 20px 20px 0px;
+}
+.bn button{
+    padding-left:9px;
+    padding-right: 9px;
+    background-color:yellowgreen;
+    color: white;
+}
+.dn{
+    height: 250px;
+    width: 712px;
+    
+    margin-left: 255px;
+}
+.b1,.b2,.b3{
+    width: 220px;
+    height: 190px;
+    background-color: white;
+    float: left;
+    margin: 1px 0px;
+    box-shadow:0px 0px 30px lightblue ;
+}
+.b2{
+    margin: 0px 26px;
+    
+}
+.b1 img,.b2 img,.b3 img{
+    width: 220px;
+    height: 140px;
+}
+.b1 h3,.b2 h3,.b3 h3{
+    margin-top: 1px;
+    margin-left: 10px;
+    color: blue;
+}
+.b1 p,.b2 p,.b3 p{
+    margin-top: -17px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.bwe{
+float: right;
+margin-top: 9px;
+
+}
+.bwe button{
+    background-color: red;
+    color: white;
+}
+.t{
+    float: left ;
+    
+}
+.is{
+   
+    height: 226px;
+    /* border: 1px solid black; */
+    width: 712px;
+    margin-left: 255px;
+}
+.is h3{
+    margin-top: 1px;
+}
+
+.is img{
+    width: 330px;
+    box-shadow:0px 0px 20px black ;
+}
+.im1{
+height: 185px;
+float: left;
+}
+.im2{
+    float: right;
+}
+.lb{
+    height: 40px;
+    /* border: 1px solid black; */
+    width: 712px;
+    margin-top: 12px;
+    margin-left: 255px;
+    margin-bottom: 120px;
+    background-color: white;
+}
+.lb h3{
+    padding-top: 8px;
+    margin-top: -1px;
+    margin-left: 10px;
+    float: left;
+
+}
+.lb img{
+    
+    width:40px;
+    height: 40px;
+    opacity:.2 ;
+}
+.footer{
+    height: 220px;
+    /* border: 1px solid black; */
+    background-color: white;
+
+}
+.CY {
+    margin-left: 255px;
+    float: left;
+    
+}
+
+.p1{
+    width: 150px;
+    line-height: 25px;
+}
+.cs,.fu,.dont{
+    float: left;
+}
+.c1,.c2,.c3,.c4{
+    font-size: medium;
+}
+.cs,.fu,.dont{
+    margin-left: 20px;
+}
+.cs p{
+    margin-bottom:-10px;
+}
+.fu svg{
+    margin-right: 5px;
+}
+.dont{
+    margin-top: -2px;
+}
+.dont input{
+    width: 140px;
+}
+.dont button{
+    
+    margin-left: -5px;
+    background-color:yellowgreen;
+    color: white;
+    font-size: 12px;
+    padding: 0px 10px;
+    height: 22.8px;
+    border: none;
+    
+    
+}
+
+.dont button:hover{
+    background-color: red;
+    color: black;
+    border-color: blueviolet;
+
+
+}
